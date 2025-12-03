@@ -211,11 +211,17 @@ Represents transactions between riders and Uber (and indirectly to drivers). Han
 payment methods.
 
 **1. Payment_id (PK)** : A unique identifier for each payment.
+
 **2. Ride_id (FK → ride_id)** : ID of the ride for which the payment is done.
+
 **3. Payment_method** (card/UPI/wallet/cash): Method of the payment done.
+
 **4. Amount** : Amount of the ride
+
 **5. Status** (success/failed/refunded): Status of the payment
+
 **6. Transaction_date** : Date of the transaction.
+
 
 ### **Rating & Review Entity:**
 Stores feedback after each ride from both riders and drivers. Ensures accountability and service
