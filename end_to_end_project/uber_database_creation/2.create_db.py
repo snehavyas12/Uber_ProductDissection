@@ -1,10 +1,10 @@
 import psycopg2
 from psycopg2 import sql, OperationalError, Error
 
-HOST="database-1.cyny6g844cq5.us-east-1.rds.amazonaws.com"
+HOST="<end_point>"
 PORT=5432
 ADMIN_USER="postgres"
-ADMIN_PASSWORD="Batuktingu"
+ADMIN_PASSWORD="<password>"
 
 NEW_DB_NAME = "uber_db"   
 ENCODING = "UTF8"

@@ -2,10 +2,10 @@ import psycopg2
 import pandas as pd
 
 conn = psycopg2.connect(
-    host = 'database-1.cyny6g844cq5.us-east-1.rds.amazonaws.com',
-    database = 'uber_db',
+    host = '<endpoint>',
+    database = '<db_name>',
     user = 'postgres',
-    password = 'Batuktingu',
+    password = '<password>',
     port = '5432'
 )
 
